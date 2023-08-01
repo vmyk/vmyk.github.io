@@ -11,6 +11,7 @@ body {
     width: 20%;
     display: block;
     margin: 0px auto;
+    pointer-events: none; /* Prevents dragging for .cloud1 image */
 }
 
 .cloud2 {
@@ -19,6 +20,7 @@ body {
     top: 50%;
     left: 46%;
     transform: translate(-30%, -50%);
+    pointer-events: none; /* Prevents dragging for .cloud2 image */
 }
 
 .page-title {
@@ -48,11 +50,13 @@ body {
 .social-icons a img {
     width: 35px;
     height: 35px;
+    pointer-events: none; /* Prevents dragging for social media icons */
 }
 
 .social-icons .crowdin-logo img {
     width: 35px;
     height: 35px;
+    pointer-events: none; /* Prevents dragging for crowdin logo */
 }
 
 #clock {
