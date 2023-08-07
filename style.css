@@ -1,5 +1,6 @@
 body {
     background-color: #407bc3;
+    cursor: url('https://kappa.lol/iLUtf'), auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
