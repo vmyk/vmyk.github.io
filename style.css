@@ -61,10 +61,13 @@ body {
 
 #clock {
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Press Start 2P', cursive; /* Apply the Press Start 2P font */
     font-size: 30px;
     position: absolute;
     bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
     left: 50%;
     transform: translateX(-50%);
 }
