@@ -62,7 +62,7 @@ body {
 #clock {
     color: white;
     font-family: 'Press Start 2P', cursive; /* Apply the Press Start 2P font */
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     bottom: 45px;
     left: 50%;
