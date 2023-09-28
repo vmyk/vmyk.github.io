@@ -1,3 +1,3 @@
-Website for personal use xD
+Website for personal use and shite xDDDDDD
 
-![huh](https://github.com/vmyk/vmyk.github.io/assets/85355352/9d694042-7d2e-49d8-8792-3d1dc7203676)
+![LickYou](https://github.com/vmyk/vmyk.github.io/assets/85355352/aa69d0d7-544f-47d3-81fd-6023befdd76a)
