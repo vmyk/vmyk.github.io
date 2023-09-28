@@ -5,14 +5,14 @@ body {
     align-items: flex-end;
     height: 100vh;
     margin: 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for the entire body */
 }
 
 .cloud1 {
     width: 20%;
     display: block;
-    margin: 0px auto;
-    pointer-events: none; /* Prevents dragging for .cloud1 image */
+    margin: 0 auto;
+    pointer-events: none;
 }
 
 .cloud2 {
@@ -21,7 +21,7 @@ body {
     top: 50%;
     left: 46%;
     transform: translate(-30%, -50%);
-    pointer-events: none; /* Prevents dragging for .cloud2 image */
+    pointer-events: none;
 }
 
 .page-title {
@@ -31,7 +31,7 @@ body {
     left: 51%;
     transform: translateX(-50%);
     font-size: 32px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for this element */
 }
 
 .social-icons {
@@ -40,7 +40,6 @@ body {
     align-items: center;
     margin-bottom: 280px;
     margin-left: 55px;
-    font-family: 'Helvetica', sans-serif;
 }
 
 .social-icons a {
@@ -61,15 +60,21 @@ body {
     pointer-events: none; /* Prevents dragging for crowdin logo */
 }
 
+
 #clock {
     color: white;
-    font-family: 'Helvetica', sans-serif; /* Use Helvetica font for the clock */
-    font-size: 35px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 45px;
     position: absolute;
-    bottom: 45px;
+    bottom: 35px;
     left: 50%;
     transform: translateX(-50%);
 }
-    left: 50%;
-    transform: translateX(-50%);
+
+.peepoPortugal {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust margin to position the GIF */
+    position: absolute; /* Position the GIF */
+    bottom: 100px; /* Adjust bottom position to place the GIF */
 }
