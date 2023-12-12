@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #77C09E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    cursor: crosshair;
+}
+
+#content-wrapper {
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 2s;
+    position: relative;
+}
+
+#content-wrapper img {
+    max-width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+.social-icons {
+    margin-top: 20px;
+    font-size: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 2s;
+}
+
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#clock {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#clock-container {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 2s;
+}
+
+#additional-text {
+    font-size: 1.2em;
+    color: white;
+    position: relative;
+    top: -30px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
