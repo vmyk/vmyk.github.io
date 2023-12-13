@@ -1,3 +1,3 @@
 Website for personal use and shite xDDDDDD
 
-![LickYou](https://github.com/vmyk/vmyk.github.io/assets/85355352/aa69d0d7-544f-47d3-81fd-6023befdd76a)
+![Myke](https://github.com/vmyk/vmyk.github.io/assets/85355352/7bbab8bf-557b-456d-a698-ca1624daecdd)
