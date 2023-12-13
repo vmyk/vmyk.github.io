@@ -73,6 +73,13 @@ ul, ol, li {
     font-size: 1.2em;
     color: white;
     position: relative;
+    top: -100px;
+}
+
+#additional-text2 {
+    font-size: 1.2em;
+    color: white;
+    position: relative;
     top: -30px;
 }
 
