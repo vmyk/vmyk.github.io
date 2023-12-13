@@ -1,3 +1,3 @@
-Website for personal use and shite xDDDDDD
+Website for tests and personal use.
 
-![Myke](https://github.com/vmyk/vmyk.github.io/assets/85355352/7bbab8bf-557b-456d-a698-ca1624daecdd)
+![WideHardo](https://github.com/vmyk/vmyk.github.io/assets/85355352/9d776f80-c59b-4910-8a8f-d580c4d698e9)
