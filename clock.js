@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var clockContainer = document.getElementById("clock-container");
-  var additionalText = document.getElementById("additional-text");
   var clockElement = document.getElementById("clock");
+  var additionalText = document.getElementById("additional-text");
+
+  function formatTimeWithZeros(number) {
+    return number < 10 ? "0" + number : number;
+  }
 
   function updateClock() {
     var now = new Date();
-    var hours = now.getHours();
-    var minutes = now.getMinutes();
-    var seconds = now.getSeconds();
+    var hours = formatTimeWithZeros(now.getHours());
+    var minutes = formatTimeWithZeros(now.getMinutes());
+    var seconds = formatTimeWithZeros(now.getSeconds());
 
     var formattedTime = `${hours}:${minutes}:${seconds}`;
 
