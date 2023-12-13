@@ -1,3 +1,3 @@
 Website for tests and personal use.
 
-![WideHardo](https://github.com/vmyk/vmyk.github.io/assets/85355352/9d776f80-c59b-4910-8a8f-d580c4d698e9)
+![donkL](https://github.com/vmyk/vmyk.github.io/assets/85355352/41e9e11a-21fb-4b36-b6c6-31b85bc0cbd3)
