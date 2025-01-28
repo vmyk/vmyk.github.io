@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+}
+
+.ellipse {
+    width: 250px;
+    height: 250px;
+    background-color: #131313;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.small-ellipse {
+    width: 230px;
+    height: 230px;
+    background-color: #131313;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.inner-image {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.smaller-ellipse {
+    width: 150px;
+    height: 150px;
+    background-color: #131313;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid white;
+    opacity: 0;
+    transition: opacity 0.5s ease, left 0.5s ease, top 0.5s ease;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+}
+
+#ellipse1 {
+    background-image: url('./Images/socials/Icon_Discord.png');
+}
+
+#ellipse2 {
+    background-image: url('./Images/socials/Icon_Github.png');
+}
+
+#ellipse3 {
+    background-image: url('./Images/socials/Icon_Instagram.png');
+}
+
+#ellipse4 {
+    background-image: url('./Images/socials/Icon_LinkedIn.png');
+}
+
+#ellipse5 {
+    background-image: url('./Images/socials/last.fm.png');
+}
+
+#ellipse6 {
+    background-image: url('./Images/socials/Icon_Twitter.png');
+}
