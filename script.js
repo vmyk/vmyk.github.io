@@ -2,25 +2,41 @@ let ellipsesShown = false;
 
 function toggleSmallerEllipses() {
     const ellipses = ['ellipse1', 'ellipse2', 'ellipse3', 'ellipse4', 'ellipse5', 'ellipse6'];
-    const distance = 300;
+    const mobileDistance = 130; // Reduced distance for mobile spacing
+    const desktopDistance = 300; // Increased distance for desktop spacing
+    const isMobile = window.innerWidth <= 768; // Check if the screen width is mobile size
+
     ellipses.forEach((id, index) => {
         const ellipse = document.getElementById(id);
         if (ellipsesShown) {
             ellipse.style.left = '50%';
             ellipse.style.top = '50%';
         } else {
-            if (index === 0) {
-                ellipse.style.left = `calc(50% + ${distance}px)`;
-            } else if (index === 1) {
-                ellipse.style.left = `calc(50% + ${2 * distance}px)`;
-            } else if (index === 2) {
-                ellipse.style.left = `calc(50% - ${distance}px)`;
-            } else if (index === 3) {
-                ellipse.style.left = `calc(50% - ${2 * distance}px)`;
-            } else if (index === 4) {
-                ellipse.style.top = `calc(50% - ${distance}px)`;
-            } else if (index === 5) {
-                ellipse.style.top = `calc(50% + ${distance}px)`;
+            if (isMobile) {
+                // For mobile, space them out vertically
+                if (index < 3) {
+                    // First three go up
+                    ellipse.style.top = `calc(50% - ${mobileDistance * (3 - index)}px)`;
+                } else {
+                    // Last three go down
+                    ellipse.style.top = `calc(50% + ${mobileDistance * (index - 2)}px)`;
+                }
+                ellipse.style.left = '50%'; // Keep them centered horizontally
+            } else {
+                // For larger screens, use the original positioning with increased spacing
+                if (index === 0) {
+                    ellipse.style.left = `calc(50% + ${desktopDistance}px)`;
+                } else if (index === 1) {
+                    ellipse.style.left = `calc(50% + ${2 * desktopDistance}px)`;
+                } else if (index === 2) {
+                    ellipse.style.left = `calc(50% - ${desktopDistance}px)`;
+                } else if (index === 3) {
+                    ellipse.style.left = `calc(50% - ${2 * desktopDistance}px)`;
+                } else if (index === 4) {
+                    ellipse.style.top = `calc(50% - ${desktopDistance}px)`;
+                } else if (index === 5) {
+                    ellipse.style.top = `calc(50% + ${desktopDistance}px)`;
+                }
             }
         }
         ellipse.style.opacity = '1';
