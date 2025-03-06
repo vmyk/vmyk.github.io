@@ -9,7 +9,7 @@ body {
 .ellipse {
     width: 250px;
     height: 250px;
-    background-color: #131313;
+    background-color: #dbb378;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -23,7 +23,7 @@ body {
 .small-ellipse {
     width: 230px;
     height: 230px;
-    background-color: #131313;
+    background-color: #dbb378;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -45,7 +45,7 @@ body {
 .smaller-ellipse {
     width: 150px;
     height: 150px;
-    background-color: #131313;
+    background-color: #dbb378;
     border-radius: 50%;
     position: absolute;
     top: 50%;
