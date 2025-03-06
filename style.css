@@ -60,25 +60,26 @@ body {
 }
 
 #ellipse1 {
-    background-image: url('./Images/socials/Icon_Discord.png');
+    background-image: url('./Images/socials/Discord.png');
 }
 
 #ellipse2 {
-    background-image: url('./Images/socials/Icon_Github.png');
+    background-image: url('./Images/socials/Github.png');
 }
 
 #ellipse3 {
-    background-image: url('./Images/socials/Icon_Instagram.png');
+    background-image: url('./Images/socials/Instagram.png');
 }
 
 #ellipse4 {
-    background-image: url('./Images/socials/Icon_LinkedIn.png');
+    background-image: url('./Images/socials/LinkedIn.png');
 }
 
 #ellipse5 {
-    background-image: url('./Images/socials/last.fm.png');
+    background-image: url('./Images/socials/LastFM.png');
 }
 
 #ellipse6 {
-    background-image: url('./Images/socials/Icon_Twitter.png');
+    background-image: url('./Images/socials/Twitter.png');
 }
+
