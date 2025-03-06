@@ -37,8 +37,8 @@ body {
 }
 
 .inner-image {
-    width: 230px;
-    height: 230px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -83,3 +83,42 @@ body {
     background-image: url('./Images/socials/Twitter.png');
 }
 
+/* Media Queries for Mobile Compatibility */
+@media (max-width: 768px) {
+    .ellipse {
+        width: 200px;
+        height: 200px;
+    }
+
+    .small-ellipse {
+        width: 180px;
+        height: 180px;
+    }
+
+    .inner-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .smaller-ellipse {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ellipse {
+        width: 150px;
+        height: 150px;
+    }
+
+    .small-ellipse {
+        width: 140px;
+        height: 140px;
+    }
+
+    .smaller-ellipse {
+        width: 80px;
+        height: 80px;
+    }
+}
